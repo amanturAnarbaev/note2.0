@@ -9,7 +9,8 @@ java {
 }
 
 dependencies {
-    implementation (Dependencies.UI)
+//    implementation(Dependencies.Java.javax)
+//    implementation(Dependencies.Coroutine.core)
 
-    implementation (Dependencies.Coroutine.coroutines)
+
 }
