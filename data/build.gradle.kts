@@ -41,13 +41,11 @@ android {
 }
 
 dependencies {
-
-//room
+    implementation(project(":domain"))
+    //room
     implementation(Dependencies.Room.roomRuntime)
     implementation(Dependencies.Room.room)
     kapt(Dependencies.Room.roomCompiler)
-
-
 
     //Coroutine
     implementation(Dependencies.Coroutine.coroutines)
