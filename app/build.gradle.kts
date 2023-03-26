@@ -77,5 +77,7 @@ dependencies {
     implementation(Dependencies.Navigation.navFragment)
     implementation(Dependencies.Navigation.navUI)
 
+    implementation(project(":data"))
+    implementation(project(":domain"))
 
 }
