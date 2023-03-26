@@ -9,8 +9,8 @@ java {
 }
 
 dependencies {
-//    implementation(Dependencies.Java.javax)
-//    implementation(Dependencies.Coroutine.core)
+    implementation(Dependencies.Java.javax)
+    implementation(Dependencies.Coroutine.core)
 
 
 }
