@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grey"
-    tools:context=".presentation.fillingNotes.FillingNotesFragment">
+    tools:context="com.example.note.presentation.fillingNotes.FillingNotesFragment">
 
     <EditText
         android:id="@+id/titleET"
