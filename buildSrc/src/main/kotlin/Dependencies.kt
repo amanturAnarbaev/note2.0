@@ -23,6 +23,16 @@ object Plugin {
 }
 
 object Dependencies {
+
+    object Java {
+        const val javax="javax.inject:javax.inject:1"
+    }
+    object Gson {
+        const val gson = "com.google.code.gson:gson:2.9.0"
+    }
+
+
+
     object UI {
         const val core = "androidx.core:core-ktx:${Versions.core}"
         const val appcompat = "androidx.appcompat:appcompat:${Versions.appcompat}"
@@ -64,17 +74,20 @@ object Dependencies {
     object Coroutine {
         const val coroutines =
             "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
+
+        const val core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
     }
 
     object Hilt {
-
-
         const val hilt = "com.google.dagger:hilt-android:${Versions.hilt}"
         const val hiltCompiler = "com.google.dagger:hilt-compiler:${Versions.hiltCompiler}"
     }
+
+
 }
 
 object Versions {
+
     const val core = "1.7.0"
     const val appcompat = "1.6.1"
     const val material = "1.8.0"

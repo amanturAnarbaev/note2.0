@@ -2,44 +2,43 @@ plugins {
     id(Plugin.AGP.application)
     id(Plugin.Kotlin.android)
     id(Plugin.Kotlin.kapt)
-    id(Plugin.NavArgs.navArgs)
     id(Plugin.DaggerHilt.hilt)
 }
 
 android {
-    namespace 'com.example.note20'
-    compileSdk = AppConfig.compileSdk
+        namespace ="com.example.note20"
+        compileSdk = AppConfig.compileSdk
 
-    defaultConfig {
-        applicationId = "com.example.note"
-        minSdk = AppConfig.minSdk
-        targetSdk = AppConfig.targetSdk
-        versionCode = AppConfig.versionCode
-        versionName = AppConfig.versionName
+        defaultConfig {
+            applicationId = "com.example.note"
+            minSdk = AppConfig.minSdk
+            targetSdk = AppConfig.targetSdk
+            versionCode = AppConfig.versionCode
+            versionName = AppConfig.versionName
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         }
-    }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
 
-    buildFeatures {
-        viewBinding = true
-    }
+        buildTypes {
+            release {
+                isMinifyEnabled = false
+                proguardFiles(
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
+                )
+            }
+        }
+        compileOptions {
+            sourceCompatibility = JavaVersion.VERSION_1_8
+            targetCompatibility = JavaVersion.VERSION_1_8
+        }
+        kotlinOptions {
+            jvmTarget = "1.8"
+        }
+
+        buildFeatures {
+            viewBinding = true
+        }
 
 
 }
@@ -78,5 +77,7 @@ dependencies {
     implementation(Dependencies.Navigation.navFragment)
     implementation(Dependencies.Navigation.navUI)
 
+    implementation(project(":data"))
+    implementation(project(":domain"))
 
 }
