@@ -6,12 +6,12 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
-import com.example.note.R
 import com.example.note.data.base.BaseFragment
-import com.example.note.databinding.FragmentFillingNotesBinding
 import com.example.note.domain.model.Note
 import com.example.note.presentation.extencion.showToast
 import com.example.note.presentation.notes.NotesFragment
+import com.example.note20.R
+import com.example.note20.databinding.FragmentFillingNotesBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

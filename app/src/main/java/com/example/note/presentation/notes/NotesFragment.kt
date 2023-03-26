@@ -4,19 +4,18 @@ import androidx.core.os.bundleOf
 import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.RecyclerView
 import by.kirich1409.viewbindingdelegate.viewBinding
-import com.example.note.R
 import com.example.note.data.base.BaseFragment
-import com.example.note.databinding.FragmentNotesBinding
 import com.example.note.domain.model.Note
 import com.example.note.presentation.extencion.showToast
+import com.example.note20.R
+import com.example.note20.databinding.FragmentNotesBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class NotesFragment : BaseFragment<NotesViewModel, FragmentNotesBinding>(R.layout.fragment_notes) {
 
-//    private lateinit var viewHolder: RecyclerView.ViewHolder
+    //    private lateinit var viewHolder: RecyclerView.ViewHolder
     override val vm: NotesViewModel by lazy {
         ViewModelProvider(requireActivity())[NotesViewModel::class.java]
     }

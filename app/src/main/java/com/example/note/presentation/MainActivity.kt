@@ -2,7 +2,8 @@ package com.example.note.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.note.R
+
+import com.example.note20.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
