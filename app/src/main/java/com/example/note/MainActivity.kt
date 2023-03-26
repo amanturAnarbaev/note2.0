@@ -1,4 +1,4 @@
-package com.example.note20
+package com.example.note
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
