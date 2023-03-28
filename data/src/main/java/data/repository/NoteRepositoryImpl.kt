@@ -1,9 +1,9 @@
-package com.example.note.data.repository
+package data.repository
 
-import com.example.note.data.base.BaseRepository
-import com.example.note.data.local.NoteDao
-import com.example.note.data.mappers.toEntity
-import com.example.note.data.mappers.toNote
+import data.base.BaseRepository
+import data.local.NoteDao
+import data.mappers.toEntity
+import data.mappers.toNote
 import com.example.note.domain.model.Note
 import com.example.note.domain.repository.NoteRepository
 import javax.inject.Inject

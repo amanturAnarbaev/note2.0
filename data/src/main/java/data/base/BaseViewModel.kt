@@ -1,4 +1,4 @@
-package com.example.note.data.base
+package data.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

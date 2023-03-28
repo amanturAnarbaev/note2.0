@@ -1,7 +1,7 @@
-package com.example.note.domain.repository
+package domain.repository
 
-import com.example.note.domain.model.Note
-import com.example.note.domain.utils.ResultStatus
+import domain.model.Note
+import domain.utils.ResultStatus
 import kotlinx.coroutines.flow.Flow
 
 interface NoteRepository {

@@ -1,4 +1,4 @@
-package com.example.note.data.base
+package data.base
 
 import android.os.Bundle
 import android.view.View

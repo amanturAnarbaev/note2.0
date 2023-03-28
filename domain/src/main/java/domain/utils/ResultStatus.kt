@@ -1,4 +1,4 @@
-package com.example.note.domain.utils
+package domain.utils
 
 sealed class ResultStatus<T>(
     val data: T? = null,

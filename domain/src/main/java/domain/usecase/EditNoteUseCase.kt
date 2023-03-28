@@ -1,7 +1,7 @@
-package com.example.note.domain.usecase
+package domain.usecase
 
-import com.example.note.domain.model.Note
-import com.example.note.domain.repository.NoteRepository
+import domain.model.Note
+import domain.repository.NoteRepository
 import javax.inject.Inject
 
 class EditNoteUseCase@Inject constructor(private val noteRepository: NoteRepository) {

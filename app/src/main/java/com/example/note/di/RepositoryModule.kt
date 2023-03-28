@@ -1,7 +1,7 @@
 package com.example.note.di
 
-import com.example.note.data.repository.NoteRepositoryImpl
-import com.example.note.domain.repository.NoteRepository
+import data.repository.NoteRepositoryImpl
+import domain.repository.NoteRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

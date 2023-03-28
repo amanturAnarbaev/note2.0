@@ -1,6 +1,6 @@
-package com.example.note.data.di
+package data.di
 
-import com.example.note.data.repository.NoteRepositoryImpl
+import data.repository.NoteRepositoryImpl
 import com.example.note.domain.repository.NoteRepository
 import dagger.Binds
 import dagger.Module

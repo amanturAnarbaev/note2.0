@@ -1,7 +1,7 @@
-package com.example.note.data.local
+package data.local
 
 import androidx.room.*
-import com.example.note.data.model.NoteEntity
+import data.model.NoteEntity
 
 @Dao
 interface NoteDao {

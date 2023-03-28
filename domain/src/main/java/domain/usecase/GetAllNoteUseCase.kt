@@ -1,8 +1,8 @@
-package com.example.note.domain.usecase
+package domain.usecase
 
-import com.example.note.domain.model.Note
-import com.example.note.domain.repository.NoteRepository
-import com.example.note.domain.utils.ResultStatus
+import domain.model.Note
+import domain.repository.NoteRepository
+import domain.utils.ResultStatus
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

@@ -1,4 +1,4 @@
-package com.example.note.data.base
+package data.base
 
 import com.example.note.domain.utils.ResultStatus
 import kotlinx.coroutines.Dispatchers

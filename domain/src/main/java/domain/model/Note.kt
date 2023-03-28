@@ -1,4 +1,4 @@
-package com.example.note.domain.model
+package domain.model
 
 data class Note(
     val id: Int = DEFAULT_ID,
